@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+
+<body>
+    <form>
+        <h1>Job Application Form</h1>
+        <!-- Full Name -->
+        <label for="fullName">Full Name :</label>
+        <input type="text" id="fullName" name="fullName" maxlength="6" minlength="3" required
+            placeholder="Enter your Name" />
+        <br>
+        <!-- Email -->
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="enter email" required />
+        <br>
+        <!-- Phone -->
+        <label for="phone">Phone :</label>
+        <!-- <input type="tel" id="phone" name="phone" placeholder="enter phone" required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /> -->
+        <input type="tel" id="phone" name="phone" placeholder="enter phone" required
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" />
+        <br>
+        <!-- position -->
+        <label>Position Applied</label>
+        <select>
+            <option>--select--</option>
+            <option value="Frontend developer">Frontend developer</option>
+            <option value="">Backend developer</option>
+            <option>UI/UX developer</option>
+
+        </select>
+        <br>
+
+        <!-- Experience -->
+        <label for="exp">Year of Experience</label>
+        <input type="number" id="exp" name="exp" min="1" max="4" required>
+        <br>
+        <!-- Gender -->
+        <label for="Gender">Gender</label>
+        <label for="">
+
+            <input type="radio" id="Gender" name="Gender" value="Male">
+            Male
+        </label>
+        <label for="">
+
+            <input type="radio" id="Gender" name="Gender" value="Female" required>
+            Female
+        </label>
+        <label for="">
+
+            <input type="radio" id="Gender" name="Gender" value="Others" required>
+            Others
+        </label>
+        <br>
+        <!-- cover letter -->
+        <label>Cover Letter</label>
+        <textarea type="text"></textarea>
+        <br>
+        <!-- Resume upload -->
+        <label>Resume</label>
+        <input type="file" />
+        <!-- readonly -->
+        <!-- <input type="text" readonly placeholder="pls avoid training"> -->
+        <button type="submit">submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+
+</html>

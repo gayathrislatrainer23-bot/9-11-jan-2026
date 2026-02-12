@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-12</title>
+    <style>
+        html{
+             font-size: 16px;
+        }
+        /* selector:pseudo-class{
+            property:value
+        } */
+         /* hover */
+
+        /* selector::pseudo-elements{
+            property:value
+        } */
+
+         button{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  height: 100x;
+         }
+
+         button:hover{
+            background-color: red;
+            color: black;
+        transform:scale(1.3);
+         }
+         button:active{
+            background-color: rgb(205, 56, 113);
+  
+         }
+         button::before{
+            content: "click";
+   font-style: italic;
+         }
+         button:active:after{
+            content: "clicked";
+   /* font-style: italic; */
+         }
+.input{
+    background-color: rgb(147, 135, 135);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+    
+}
+.input:focus{
+    border: 5px dotted blue
+}
+a{
+    color: rgb(141, 158, 12);
+    text-decoration: none;
+}
+a:visited{
+color: brown;
+}
+.para1{
+font-size: 20px;
+}
+.box{
+    font-size: 4px;
+}
+.para2{
+font-size: 1.2rem;
+}
+    </style>
+</head>
+<body>
+    <!-- pseudo class and psedo elements -->
+     
+     <input type="text" class="input">
+     <button></button>
+     <P class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure deleniti deserunt architecto id amet quibusdam repudiandae optio inventore sunt. Ullam praesentium 
+        nesciunt, amet tempora ab rem dolores quos suscipit?</P>
+        <div class="box">
+            <p>haii</p>
+
+            <P class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure deleniti deserunt architecto id amet quibusdam repudiandae optio inventore sunt. Ullam praesentium 
+               nesciunt, amet tempora ab rem dolores quos suscipit?</P>
+        </div>
+
+     <a href="google.com"></a>
+     <a href="#">sla</a>
+     <a href="https://training.slainstitute.com/adminpage">sla</a>
+</body>
+</html>
