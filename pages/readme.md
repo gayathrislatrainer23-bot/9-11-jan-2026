@@ -43,3 +43,84 @@ var item1-price=null;
 
 1vw = 1% of browser width
 
+16/2/2026
+<!-- Arithamatic operators -->
+let num1 = 5;
+let num2 = 10;
+ let sum = num1 + num2
+ <!-- 15 -->
+
+ <!-- logical operators -->
+
+ 1. &&
+ 2. !
+ 3. ||
+
+ Logical operators
+
+   && --> admin--> username and password 
+            username === "admin" && password === "1234"
+
+    || -->    username === "admin" || password === "1234"      
+
+    !  --> !true
+&&
+    T+T --> T 
+    T + F --> F 
+    F + T --> F 
+     F+F --> F  
+||
+    T+T --> T 
+    T + F --> T 
+    F + T --> T 
+     F+F --> F  
+
+     !
+
+    T+T --> F
+    T + F --> T 
+    F + T --> T
+     F+F --> T  
+
+3. comparison operators
+
+   ==  --> equal(loose )
+   === -->  equal(strict )
+   !=  --->not equal
+   !== ---> stric not equal
+   > --> greater than
+   < --> less than 
+   >= -- >greater than or equal to
+   <= -- >less than than or equal to
+
+num1
+num2
+num1 == num2
+num1 === num2 
+js let a = 5
+let b = "5"
+a == b 
+a === b
+!= 
+5 != 3 = T
+5 == 3 = F
+
+5 !==  "3"
+5 > 3
+5< 3 f
+
+ x <= 5
+ y >= 0
+
+ x >= 0 && x <= 10
+
+      4. Assignment operator
+
+     = --> a=5
+     += -->  a=a+2    a+=2
+     -= ---> a=a-2    a-=2
+     *= ---> a=a*2    a*=2
+     /= ---> a=a/2    a/=2
+     
+
+
