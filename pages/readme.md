@@ -123,4 +123,39 @@ a === b
      /= ---> a=a/2    a/=2
      
 
+17/2/2026
+day-15
+1. if(condition){
+    <!--   -->
+}
 
+2.   if(condition){
+    <!--  condition: true -->
+}else{
+ <!--  condition: false -->
+}
+<!-- else if ladder -->
+
+3. if(condition1){
+    <!--  condition1: true -->   
+}else if(condition2){
+    <!--  condition2: true -->   
+}else if(condition3){
+        <!--  condition3: true -->   
+}else{
+    <!--  condition all : false --> 
+}
+
+4. nested condition
+
+ if(condition1){
+ if(condition2){
+    <!--   condition1 && condition2: true -->     
+}
+}
+
+<!-- ternary operator -->
+
+condition ? true : false
+
+task :  print the number is even or odd.
