@@ -159,3 +159,17 @@ day-15
 condition ? true : false
 
 task :  print the number is even or odd.
+
+
+age>=18 ? "allow to enter" : "not allow"
+
+ console.log(5 + "3");
+ console.log("5" - 2);
+ console.log(10 == "10");
+ console.log(10 === "10");
+ console.log(true + 1);
+ console.log(false + 5);
+ console.log("4" * 2);
+ console.log(5 > 3 && 2 > 1);
+ console.log(5 > 3 && 2 < 1);
+ console.log(3 < 2);
