@@ -173,3 +173,133 @@ age>=18 ? "allow to enter" : "not allow"
  console.log(5 > 3 && 2 > 1);
  console.log(5 > 3 && 2 < 1);
  console.log(3 < 2);
+
+ day-16
+ 18/2/2026
+
+ 1. switch
+ let num = 4
+
+ switch(num){
+    case value1:
+    <!-- code console.log() -->
+    break;
+    case value2:
+    <!--  -->
+    break;
+    case value3 :
+    <!-- 4 -->
+    <!--console.log(4)  -->
+    break;
+    case value4:
+    <!-- console.log(5) -->
+
+ }
+
+ 
+ switch(num){
+    case 3:
+    <!-- code console.log() -->
+    break;
+    case 2:
+    <!--  -->
+    break;
+    case 4 :
+    <!-- 4 -->
+    <!--console.log(4)  -->
+    break;
+    case 5:
+    <!-- console.log(5) -->
+    default:
+    <!-- console.log('no value') -->
+
+ }
+ 2. loop
+
+
+a++ - post-increment
+++a - pre-increment
+
+ a= 5
+b= a
+b=5
+b=a++
+a =6
+b= 5
+
+c= 8
+d= ++c
+c= 9
+d=9
+
+
+1. for loop
+
+for(initialization;condition;increment){
+    console.log(...)
+}
+1,2,3,4
+
+ffor(let i = 0; i<4;i++){
+    console.log(i)
+}
+<!-- first itration -->
+i=0
+print 0
+check condition 0<4 ===> true
+i++ --> i=0+1=1
+<!-- 2nd itration -->
+
+print 1
+i=1
+check condition 1<4 ===>true
+i++ --> i=1+1=2
+<!-- 3rd itration -->
+
+print 2
+i=2
+check condition 2<4 ===>true
+i++ --> i=2+1=3
+<!-- 4rd itration -->
+
+print 3
+i=3
+check condition 3<4 ===>true
+i++ --> i=3+1=4
+<!-- 5rd itration -->
+
+print 4
+i=4
+check condition 4<4 ===>false
+
+out
+
+class- task: print even number 1 to 15
+for(let i=1; i<=15;i++){
+    if(i%2===0){
+        console.log(i)
+    }
+}
+
+<!-- while loop -->
+
+while(condition){
+    <!-- code -->
+}
+
+let i = 1
+while(i<2){
+console.log(i)
+    i++;
+}
+do{
+    <!-- code -->
+}while(condition)
+
+ let bigNum = 123456
+ //find the digit of this number
+
+ block scoped- {} let, const
+ function scoped /Global
+ global scope - var
+
