@@ -303,3 +303,53 @@ do{
  function scoped /Global
  global scope - var
 
+
+20/2/2026
+ function--> block of code used for specific task;
+
+function nameOfFunction(name){e
+    console.log('hello' , name)
+}
+nameOfFunction(Raju)
+
+
+arrow fun
+
+const name  =()=>{
+<!-- code -->
+}
+
+Array
+
+let arr = [1,2,3,4];
+let str =['hello', 'welcome', 'Balu'];
+
+let mix = [1,3.4,'hi',true]
+let students = ["Manu","Balu","Raju"]
+
+
+
+index start from 0,1,2
+arr.length =3
+last element index = 2
+
+let student1 =arr[0]
+
+<!-- manu -->
+
+<!-- push -->
+
+arr.push(5)
+[1,2,3,4,5]
+<!-- pop-->
+arr.pop()
+[1,2,3,4]
+
+<!-- unshift -->
+
+arr.unshift(0)
+
+[0,1,2,3,4]
+
+<!-- shift  -->
+[1,2,3,4]

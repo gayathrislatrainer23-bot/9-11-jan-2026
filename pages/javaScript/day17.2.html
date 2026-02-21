@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    
+    function nameOfFunction(name){
+        console.log('hello',name)
+        
+    }
+    nameOfFunction('Raju')
+
+function add(a,b){
+    return a+b
+}
+console.log(add(10,20))
+
+// 1. function declaration
+
+function sayHi(){
+  console.log('hi welcome') 
+}
+sayHi()
+
+// fun expression
+let sayHiExpression = function (){
+  console.log('hi welcome EXPRESSION') 
+}
+sayHiExpression()
+
+// Arrow function
+const multiply = (a,b)=>a*b
+let value =multiply(20,10)
+console.log(value)
+
+// default prameters
+function greet(name='Guest'){
+return name
+}
+let userName = undefined;
+console.log(greet(userName))
+
+
+</script>
+<body>
+    
+</body>
+</html>
