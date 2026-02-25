@@ -397,4 +397,11 @@ nums.map(
 
 nums.find(num => num<3)
 
+<!-- reduce -->
+arr.reducer((acc,element)=>{
+
+})
+
+let sum=arr.reduce((total,n)=>total+n)
+
 
