@@ -404,4 +404,11 @@ arr.reducer((acc,element)=>{
 
 let sum=arr.reduce((total,n)=>total+n)
 
+<!-- object -->
+let obj
+=
+{
+key1: value1,
+key2: value2,
 
+}
