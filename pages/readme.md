@@ -412,3 +412,8 @@ key1: value1,
 key2: value2,
 
 }
+
+<!-- Destructuring -->
+
+const colors = ['green','blue','red']
+let [color1,color2,color3]= colors
