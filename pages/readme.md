@@ -417,3 +417,12 @@ key2: value2,
 
 const colors = ['green','blue','red']
 let [color1,color2,color3]= colors
+
+
+3/3/2026
+
+dom
+
+html element
+
+
