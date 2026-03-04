@@ -104,30 +104,55 @@ toFindZero([1,0,0]);
 
 // const arr = [10,20,22,24]
 
-function checkDiv(arr){
-    let div = []
-    for(let i = 0; i < arr.length;i++){ 
-        div += i;
-        if(i % 5 == 0){
-            console.log(i)
-        }
-    }
-    return 
+// function checkDiv(arr){
+//     let div = []
+//     for(let i = 0; i < arr.length;i++){ 
+//         div += i;
+//         if(i % 5 == 0){
+//             console.log(i)
+//         }
+//     }
+//     return 
+// }
+
+// console.log(checkDiv([10,20,22,24]))
+
+// // Add 5 to each element of [1, 2, 3].
+// const arr=[1,2,3];
+// for(let i=0;i<arr.length;i++){
+//     arr[i]+=5;
+// }
+// console.log(arr);
+
+// Check if a person is eligible to vote (age ≥ 18).
+
+// function printAge(){
+//     let age = 18;
+    
+//     if(18){
+//         console.log("eligible")
+
+//     }
+//     else if("its not 18"){
+//         console.log("not eligible")
+//     }
+
+//     console.log(age);
+  
+// };
+// printAge();
+
+
+// Count how many even numbers are in [1,2,3,4,5,6].
+let a=[1,2,3,4,5,6];
+let count=0;
+for(i=0;i<a.length;i++){
+   if(a[i]%2==0){
+     count++;
+     
+   }
 }
-
-console.log(checkDiv([10,20,22,24]))
-
-// Add 5 to each element of [1, 2, 3].
-const arr=[1,2,3];
-for(let i=0;i<arr.length;i++){
-    arr[i]+=5;
-}
-console.log(arr);
-
-
-
-
-
+console.log("countof even numbers",count);
 
 
 

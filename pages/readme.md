@@ -425,4 +425,20 @@ dom
 
 html element
 
+day-24
+4/3/2026
+
+button-->  click --> id= btn
+
+
+element = doc.getelementbyid('btn')
+
+element.addeventLisener('click',()=>{
+    alert('button clicked')
+    
+})
+
+
+
+
 
