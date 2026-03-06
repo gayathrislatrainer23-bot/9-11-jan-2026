@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" onchange="nameChange(this.value)">
+    <button  onclick="sayHello()">click me</button>
+<h1 id="h">haii</h1>
+    <form action="" id="form">
+        <input type="text" placeholder="email" name="email">
+        <input type="text" placeholder="password" name="password">
+        <button type="submit">submit</button>
+    </form>
+
+<script>
+// const sayHello = ()=>{
+//     alert('hello All')
+// }
+// const nameChange = (value)=>{
+// console.log(value)
+
+// }
+let h = document.getElementById('h')
+console.log(h)
+let form = document.getElementById('form')
+console.log(form)
+form.addEventListener("submit", (e)=>{
+     e.preventDefault()
+console.log(e.target.email.value)
+console.log(e.target.password.value)
+
+alert(`your email: ${e.target.email.value} and your password is: ${e.target.password.value}`)
+// console.log(e)
+})
+
+</script>
+</body>
+</html>

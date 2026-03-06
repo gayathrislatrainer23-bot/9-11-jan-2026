@@ -47,8 +47,25 @@ let updatedStudent ={
     marks: 450
 }
 
+let [first,...otherElement] =c
 
-console.log(updatedStudent)
+
+console.log(first,'c -first')
+console.log(otherElement,'c -otherElement')
+
+function sum(...numbers){
+let total =0
+console.log(numbers)
+for(let i=0; i<numbers.length;i++){
+
+    total += numbers[i]
+}
+return total
+}
+
+console.log(sum(1,2,7),'sum')
+
+// console.log(updatedStudent)
 
 // Reverse an array 
 

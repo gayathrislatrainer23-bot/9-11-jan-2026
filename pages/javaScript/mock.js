@@ -155,15 +155,6 @@ for(i=0;i<a.length;i++){
 console.log("countof even numbers",count);
 
 
-
-
-
-
-
-
-
-
-
 // Print numbers from 1 to 10.
 
 // Count how many times 3 appears in [1,3,4,3,5,3].

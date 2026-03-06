@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // Write a program to check if a number is even or odd.
+function checkOddorEven(num){
+if(num%2==0){
+    console.log("number is even");
+    
+}
+else{
+    console.log("number is odd");
+    
+}
+}
+// checkOddorEven(8)
+// checkOddorEven(7)
+// checkOddorEven(3)
+
+// Reverse [5, 15, 25, 35].
+arr =[5, 15, 25, 35]
+//  console.log(arr[2])
+
+function reverseArray(arr){
+    let reverseArr = []
+    // let j=0
+for(i=arr.length-1;i>=0;i--){
+    //  console.log(arr[i])
+//   reverseArr[j]= arr[i]
+//   j++;
+
+// reverseArr[reverseArr.length] = arr[i]
+}
+return reverseArr
+ }
+ console.log(reverseArray(arr))
+
+// Check if a number is positive or negative.
+
+function findNumberPositive(num){
+
+if(num>=0){
+    console.log('it is a positive number')
+}else{
+    console.log('it is a negative number')
+}
+
+}
+ findNumberPositive(-90)
+
+function reverse(a){
+    newreverse=[]
+    for(i=a.length-1;i>=0;i--){
+    //    console.log(a[i])
+       for(j=0;j<=a.length;j++){
+        newreverse=a[i]
+       }
+       //    console.log(newreverse)
+    }
+    return newreverse
+}
+console.log(reverse([1,2,3,4,5]))
+
+// Add 5 to each element of [1, 2, 3].
+
+let arr1=[1,2,3];
+for(let i=0;i<arr1.length;i++){
+    arr1[i]=arr1[i]+5;
+
+}
+console.log(arr1)
+
+// Count how many even numbers are in [1,2,3,4,5,6].
+let arr2=[1,2,3,4,5,6]
+let count=0
+for(let i=0;i<arr2.length;i++){
+    if(arr2[i]%2==0)
+{
+    count++
+}
+}
+console.log(count)
+// Check if 10 is divisible by 5.
+let num=10;
+if (num%5===0){
+console.log("Divisible by 5")
+}
+else{
+        console.log("Not divisible")
+    }
+
+    // Find the sum of numbers from 1 to 5.
+
+// let number=[1,2,3,4,5];
+// let large=[];
+let sum =0 ;
+for(let i=1; i<5; i++){
+sum += i
+}
+console.log(sum)
+</script>
+<body>
+    
+</body>
+</html>
