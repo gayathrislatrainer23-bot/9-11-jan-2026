@@ -28,3 +28,8 @@ jsx
 
 
 jsx -- js xml , html like syntax
+
+13/3/2026
+
+props
+
