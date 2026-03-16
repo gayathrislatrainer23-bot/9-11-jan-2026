@@ -1,6 +1,8 @@
 
 import './App.css'
  import Greetings from './components/Greetings'
+import IsLoggedin from './components/IsLoggin'
+import WeatherApp from './components/WeatherApp'
 // import {Greetings} from './components/Greetings'
 
 function App() {
@@ -12,10 +14,14 @@ const obj ={
   status: " success",
   isLoggedIn : true
 }
+let isLoggedin = false;
   return (
     <>
+  
 <div className="" style={{color: "#fff"}} >
-<Greetings userName = {name}  age= {age} students = {arr} res= {obj}/>
+{/* <Greetings userName = {name}  age= {age} students = {arr} res= {obj}/> */}
+{/* <IsLoggedin isLoggedin = {isLoggedin}/> */}
+<WeatherApp/>
 </div>
     </>
 

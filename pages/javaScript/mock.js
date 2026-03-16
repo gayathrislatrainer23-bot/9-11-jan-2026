@@ -144,22 +144,123 @@ toFindZero([1,0,0]);
 
 
 // Count how many even numbers are in [1,2,3,4,5,6].
-let a=[1,2,3,4,5,6];
-let count=0;
-for(i=0;i<a.length;i++){
-   if(a[i]%2==0){
-     count++;
+// let a=[1,2,3,4,5,6];
+// let count=0;
+// for(i=0;i<a.length;i++){
+//    if(a[i]%2==0){
+//      count++;
      
-   }
+//    }
+// }
+// console.log("countof even numbers",count);
+
+// Count how many numbers are in [4, 6, 8, 10].
+
+let arr=[4,6,6,10];
+console.log("count",arr.length);
+
+// Find the sum of [2, 4, 6].
+function findTheSum(arr){
+    let sum =0
+    for (i=0; i<arr.length; i++){
+      sum = sum+ arr[i]
+
+    }return sum
 }
-console.log("countof even numbers",count);
+console.log(findTheSum([2,4,6]));
+
+
+// Add 5 to each element of [1, 2, 3].
+
+// Count how many even numbers are in [1,2,3,4,5,6].
+
+function counteve(arr){
+    let count=0;
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]%2==0){
+            count++;
+        }
+}console.log(count);
+}
+counteve([1,2,3,4,5,6])
+
+// Write a program to check if a number is even or odd.
+
+
+// Check if a number is positive or negative.
+let num=8
+if(num>=0){
+    console.log("POSITIVE")
+}
+else{
+    console.log("NEGATIVE")
+}
+
+// Reverse the array [10, 20, 30].
+
+let a1=[10,20,30];
+for(i=a1.length;i>=0;i--){
+    console.log(a1[i]);
+}
+
+// Find the largest number in [3, 7, 1].
+
+// Print numbers from 10 to 1.
+
+// function printnum(i){
+//     for(let i = 10 ; i>=1 ; i-- ){
+//         console.log(i)
+//     }
+// }
+// printnum()
+
+
+// Check if 10 is divisible by 5.
+let divide=10
+
+    if(divide %5===0){
+        console.log(" it is divide");
+    }else{
+        console.log("not divide")
+    }
+
+// Count how many times 3 appears in [1,3,4,3,5,3].
+
+// let arr2 =[1,3,4,3,5,3]
+// count=0;
+// for(i=0;i<=arr2.length;i++)
+//     if(arr2===3){
+//         count++
+          
+//     }
+//      console.log(count)
+  
+
+   // Find the greater number between 8 and 3.
+
+   let a2=[8,3]
+   let largest= a2[0]
+//    for (let i=0; i<=a2.length; i++){
+    // if(a2[i]>largest){
+    // largest=a2[i];
+//    }
+// }
+console.log(largest);
+
+
+
+
+
+
+
+
 
 
 // Print numbers from 1 to 10.
 
 // Count how many times 3 appears in [1,3,4,3,5,3].
 
-// Reverse the array [10, 20, 30].
+
 
 // Check if a number is positive or negative.
 
