@@ -2,6 +2,7 @@
 import './App.css'
  import Greetings from './components/Greetings'
 import IsLoggedin from './components/IsLoggin'
+import StudentsList from './components/StudentsList'
 import WeatherApp from './components/WeatherApp'
 // import {Greetings} from './components/Greetings'
 
@@ -21,7 +22,8 @@ let isLoggedin = false;
 <div className="" style={{color: "#fff"}} >
 {/* <Greetings userName = {name}  age= {age} students = {arr} res= {obj}/> */}
 {/* <IsLoggedin isLoggedin = {isLoggedin}/> */}
-<WeatherApp/>
+{/* <WeatherApp/> */}
+<StudentsList/>
 </div>
     </>
 

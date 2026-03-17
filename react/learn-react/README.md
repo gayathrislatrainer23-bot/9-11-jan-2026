@@ -42,7 +42,6 @@ ternary opertor  login and $$ operator
  3. temp bellow + image  --> && 
 
 
-day-1
 
 1. Bom
    dom
@@ -54,7 +53,7 @@ day-1
 7. create react app 
 8. Babel -- compailer/ transpailer -convert jsx to pure js
 9. statc and dynamic website
-day-2
+
 1. file structucture
 
  work flow and folder structure of react
