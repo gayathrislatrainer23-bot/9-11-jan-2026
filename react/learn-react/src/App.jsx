@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './components/Counter'
  import Greetings from './components/Greetings'
 import IsLoggedin from './components/IsLoggin'
 import StudentsList from './components/StudentsList'
@@ -23,7 +24,8 @@ let isLoggedin = false;
 {/* <Greetings userName = {name}  age= {age} students = {arr} res= {obj}/> */}
 {/* <IsLoggedin isLoggedin = {isLoggedin}/> */}
 {/* <WeatherApp/> */}
-<StudentsList/>
+{/* <StudentsList/> */}
+<Counter/>
 </div>
     </>
 

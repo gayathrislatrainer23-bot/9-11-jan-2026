@@ -80,4 +80,20 @@ package.json -- keep meta data of dependencies
 
 
 
+Hooks
+special fun by react --> state management, life cycle methods, sideEffect
+state : state is special memory inside a comp that hold data which can change over time 
+
+useState() 
+import {useState }from react
+           hook
+          [ currentState , setState ] = useState(0)
+            
+
+currentState --> 0
+
+            click (setState(10))
+increment limit 100
+reset - 0
+
 
