@@ -6,6 +6,7 @@ import IsLoggedin from './components/IsLoggin'
 import StudentsList from './components/StudentsList'
 import WeatherApp from './components/WeatherApp'
 // import {Greetings} from './components/Greetings'
+import SimpleForm from './components/SimpleForm'
 
 function App() {
 let name = 'Raju'
@@ -25,7 +26,8 @@ let isLoggedin = false;
 {/* <IsLoggedin isLoggedin = {isLoggedin}/> */}
 {/* <WeatherApp/> */}
 {/* <StudentsList/> */}
-<Counter/>
+{/* <Counter/> */}
+<SimpleForm/>
 </div>
     </>
 
