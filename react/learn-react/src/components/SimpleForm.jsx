@@ -5,7 +5,11 @@ const [name, setName] = useState('')
 const handleSubmit = (e)=>{
     e.preventDefault()
     //  prevent refresh
-alert(name)
+    //  let token = localStorage.getItem('token')
+     let password = localStorage.setItem('password', '123')
+        //    localStorage.removeItem('password')
+
+alert(password)
 
 }
 
