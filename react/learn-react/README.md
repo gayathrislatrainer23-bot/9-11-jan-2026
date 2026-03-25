@@ -96,4 +96,44 @@ currentState --> 0
 increment limit 100
 reset - 0
 
+usEffect -- > hook in react -- handling side effect 
+
+ login --> post ---> api
+navigate to dashboard
+--> render --> side effect  --> products api -->
+
+useEffect ??
+syntax:
+
+useEffect(()=>{
+  <!-- side effect code -->
+})
+
+case: 1 --> run after all renders
+useEffect(()=>{
+  <!-- side effect code -->
+
+})
+
+case: 2 --> run after initial render
+
+useEffect(()=>{
+  <!-- side effect code -->
+},[])
+
+dependancy - array - second argument in useEffect
+
+case: 3 --> run after state change  render
+
+const [name, setNAme] =useState("")
+
+useEffect(()=>{
+  <!-- side effect code -->
+},[name,age])
+
+ console : 1.you are logged in  all  // dashboard
+ alert : 2. the page is loaded   []
+ alert : 3.you are loggedin / you are not loggedin  [state] logout btn 
+
+25/3/2026
 

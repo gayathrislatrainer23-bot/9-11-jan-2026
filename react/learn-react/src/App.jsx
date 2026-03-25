@@ -7,6 +7,8 @@ import StudentsList from './components/StudentsList'
 import WeatherApp from './components/WeatherApp'
 // import {Greetings} from './components/Greetings'
 import SimpleForm from './components/SimpleForm'
+import Profile from './components/Profile'
+import Effect from './components/Effect'
 
 function App() {
 let name = 'Raju'
@@ -27,7 +29,9 @@ let isLoggedin = false;
 {/* <WeatherApp/> */}
 {/* <StudentsList/> */}
 {/* <Counter/> */}
-<SimpleForm/>
+{/* <SimpleForm/> */}
+{/* <Profile/> */}
+<Effect age={age}/>
 </div>
     </>
 
