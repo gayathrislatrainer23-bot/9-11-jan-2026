@@ -9,6 +9,10 @@ import WeatherApp from './components/WeatherApp'
 import SimpleForm from './components/SimpleForm'
 import Profile from './components/Profile'
 import Effect from './components/Effect'
+import Login from './pages/Login'
+import ProfilePage from './pages/ProfilePage'
+import {BrowserRouter,Link,Route, Routes} from 'react-router-dom'
+import DashBoard from './pages/DashBoard'
 
 function App() {
 let name = 'Raju'
@@ -30,8 +34,26 @@ let isLoggedin = false;
 {/* <StudentsList/> */}
 {/* <Counter/> */}
 {/* <SimpleForm/> */}
-{/* <Profile/> */}
-<Effect age={age}/>
+{/* <Profile/>
+<Effect age={age}/> */}
+{/* <Login/>
+<ProfilePage/> */}
+
+<BrowserRouter>
+<nav>
+  <Link to={'/'}>DashBoard</Link>
+  <button>
+
+  <Link to={'/login'}>Login</Link>
+  </button>
+</nav>
+
+<Routes>
+  <Route path='/' element={<DashBoard/>}/>
+  <Route path='/login' element={<Login/>}/>
+  <Route path='/profile' element={<ProfilePage/>}/>
+</Routes>
+</BrowserRouter>
 </div>
     </>
 

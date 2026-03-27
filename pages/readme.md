@@ -438,7 +438,13 @@ element.addeventLisener('click',()=>{
     
 })
 
-
-
+27/3/2026
+ 
+1. html + change  --> border, fond-size change
+2.  HTML DIV  --> BLUE LETTER+ YELLOW BACKGROUND/IMAGE
+                    SETAATRIBUTE(src,image url or folder path )
+                    
+                    
+                
 
 

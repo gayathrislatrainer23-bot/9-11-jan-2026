@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1 id="msg" >hello world</h1>
+    <p class="info"> this is a para1</p>
+    <p class="info"> this is a para2</p>
+    <div id="container">
+old content
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit repellendus sint aliquid id ratione sunt, sed quae. Porro nam eaque pariatur, ut aliquid tempora dolore exercitationem vel placeat totam. Est?</p>
+    </div>
+    <script>
+          let h1Element = document.getElementById('msg')
+          console.log(h1Element)
+          let pElement = document.getElementsByClassName('info')
+                    console.log(pElement)
+            let pQuery = document.querySelector('.info')        
+            let h1Query = document.querySelector('#msg')    
+            console.log(pQuery)    
+            console.log(h1Query)    
+
+             let data   =document.getElementById('container').innerHTML
+       console.log(data)
+
+       let text = document.getElementById('container').textContent
+
+console.log(text)
+document.getElementById('msg').innerHTML = '<p>haii this is new</p>'
+
+let container = document.getElementById('container') 
+container.style.background = 'blue';
+container.style.color = '#fff';
+
+    </script>
+</body>
+</html>

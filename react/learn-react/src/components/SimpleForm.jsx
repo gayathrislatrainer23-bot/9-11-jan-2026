@@ -4,9 +4,10 @@ const SimpleForm =()=>{
 const [name, setName] = useState('')
 const handleSubmit = (e)=>{
     e.preventDefault()
+    
     //  prevent refresh
     //  let token = localStorage.getItem('token')
-     let password = localStorage.setItem('password', '123')
+    //  let password = localStorage.setItem('password', '123')
         //    localStorage.removeItem('password')
 
 alert(password)
