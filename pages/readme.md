@@ -445,6 +445,33 @@ element.addeventLisener('click',()=>{
                     SETAATRIBUTE(src,image url or folder path )
                     
                     
-                
+    events
+
+    onclick
+    onchange
+
+
+
+let h = document.getElementById('h')
+console.log(h)
+let form = document.getElementById('form')
+console.log(form)
+form.addEventListener("submit", (e)=>{
+     e.preventDefault()
+console.log(e.target.email.value)
+console.log(e.target.password.value)
+
+alert(`your email: ${e.target.email.value} and your password is: ${e.target.password.value}`)
+// console.log(e)
+})
+
+
+1. button click  display hello world 
+2. button  --> when click  -->  off -- to on
+3. Style Toggle
+Create a button — when clicked, toggle the background between blue and white.
+4.  Task 8: Count Clicks
+Create a button "Click Me".
+ Each click increases the count and displays it inside <p id="count">.
 
 

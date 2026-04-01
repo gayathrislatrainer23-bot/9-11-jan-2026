@@ -8,13 +8,16 @@
 <body>
 
 
-    <h1 id="msg" >hello world</h1>
+    <!-- <h1 id="msg" >hello world</h1>
     <p class="info"> this is a para1</p>
     <p class="info"> this is a para2</p>
     <div id="container">
 old content
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit repellendus sint aliquid id ratione sunt, sed quae. Porro nam eaque pariatur, ut aliquid tempora dolore exercitationem vel placeat totam. Est?</p>
-    </div>
+    </div> -->
+    <p id="text"></p>
+    <button onclick="showText()"> click</button>
+
     <script>
           let h1Element = document.getElementById('msg')
           console.log(h1Element)
@@ -36,6 +39,10 @@ document.getElementById('msg').innerHTML = '<p>haii this is new</p>'
 let container = document.getElementById('container') 
 container.style.background = 'blue';
 container.style.color = '#fff';
+
+ function showText() {
+    document.getElementById('text').innerHTML  = 'hello world'
+}
 
     </script>
 </body>
