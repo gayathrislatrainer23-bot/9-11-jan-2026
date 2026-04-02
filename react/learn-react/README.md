@@ -135,5 +135,211 @@ useEffect(()=>{
  alert : 2. the page is loaded   []
  alert : 3.you are loggedin / you are not loggedin  [state] logout btn 
 
-25/3/2026
+2/4/2026
+
+<!-- Bootstrap -->
+
+ 1. Introduction to Bootstrap
+
+ What is Bootstrap?
+Bootstrap is a CSS framework that helps us design websites quickly.
+
+ Why use Bootstrap?
+
+* No need to write full CSS
+* Easy responsive design 
+* Pre-built components (buttons, cards, navbar)
+
+
+ How to use Bootstrap?
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+ 2. Bootstrap Containers
+
+  What is Container?
+
+Container is used to wrap content with proper spacing**
+
+
+Types of Containers
+
+1. `.container`
+
+* Fixed width
+
+
+<div class="container bg-light">
+  <h1>Hello Students</h1>
+</div>
+
+
+ 2. `.container-fluid`
+
+* Full width (100%)
+
+<div class="container-fluid bg-warning">
+  <h1>Full Width</h1>
+</div>
+
+
+
+---
+
+Grid System (Very Important)
+
+ Bootstrap grid = 12 columns
+
+ Screen is divided into 12 parts
+
+---
+
+ Basic Structure:
+
+<div class="container">
+  <div class="row">
+    <div class="col">1</div>
+    <div class="col">2</div>
+    <div class="col">3</div>
+  </div>
+</div>
+
+
+ Example 1: Equal columns
+
+
+<div class="row">
+  <div class="col">A</div>
+  <div class="col">B</div>
+</div>
+
+
+ Example 2: Different sizes
+
+
+<div class="row">
+  <div class="col-4">Left</div>
+  <div class="col-8">Right</div>
+</div>
+
+
+ Example 3: Responsive
+
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">Box</div>
+</div>
+
+Typography
+
+Used for text styling
+
+
+Headings
+
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+
+ Bootstrap classes
+
+
+<p class="text-primary">Blue text</p>
+<p class="text-danger">Red text</p>
+<p class="fw-bold">Bold text</p>
+<p class="text-center">Center text</p>
+
+
+
+<p class="text-success fw-bold text-center">
+  Welcome Students
+</p>
+
+
+ 5. Utilities (Shortcut Classes)
+
+ What are utilities?
+
+Small helper classes for:
+
+* spacing
+* colors
+* alignment
+
+
+
+ Spacing (margin & padding)
+
+
+<div class="m-3 p-3 bg-light">Box</div>
+
+
+| Class | Meaning |
+| ----- | ------- |
+| m-3   | margin  |
+| p-3   | padding |
+
+
+
+ Colors
+
+<div class="bg-primary text-white">Hello</div>
+
+Display
+
+
+<div class="d-none">Hidden</div>
+<div class="d-block">Visible</div>
+
+
+
+Flex in Bootstrap (VERY IMPORTANT)
+
+Bootstrap uses Flexbox internally
+
+Enable flex
+
+
+<div class="d-flex">
+  <div>1</div>
+  <div>2</div>
+</div>
+
+
+ Justify content (horizontal)
+
+
+<div class="d-flex justify-content-between">
+  <div>A</div>
+  <div>B</div>
+</div>
+
+
+Options:
+
+* `justify-content-start`
+* `justify-content-center`
+* `justify-content-between`
+* `justify-content-around`
+
+
+Align items (vertical)
+
+
+<div class="d-flex align-items-center" style="height:100px;">
+  <div>Centered</div>
+</div>
+
+Flex direction
+
+
+<div class="d-flex flex-column">
+  <div>Top</div>
+  <div>Bottom</div>
+</div>
+
+
+
+
 
